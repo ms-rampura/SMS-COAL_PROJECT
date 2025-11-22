@@ -1,4 +1,6 @@
-# A MASM (Assembly) Based Console Application for University Society & Member Management
+# SOCIETY MANAGEMENT SYSTEM (SMS)
+
+<img width="940" height="788" alt="SMS" src="https://github.com/user-attachments/assets/942b66fe-f50a-4e71-a771-a7ce678b27fa" />
 
 ## 👥 Team Members
 - **Muhammad Shabbir** (24K-0502)
