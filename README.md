@@ -4,138 +4,141 @@ A MASM (Assembly) based Console Application for University Society & Member Mana
 
 👥 Team Members
 
-Syed Abdullah Kamran (24K-0723)
-
-Hasan Mujtaba (24K-0852)
-
 Muhammad Shabbir (24K-0502)
+Syed Abdullah Kamran (24K-0723)
+Hasan Mujtaba (24K-0852)
 
 📝 Overview
 
-The Society Management System (SMS) is a console-based application developed using MASM (Assembly Language) and the Irvine32 library.
-It provides an efficient way to manage university societies and their members, allowing users to add, delete, edit, view, and search records through a menu-driven interface.
+The Society Management System (SMS) is a simple yet effective console-based application built using MASM (Assembly Language) and the Irvine32 Library. It helps manage university societies and their members through a clean, menu-driven interface.
 
-This project serves as a solution to the difficulties of managing multiple societies manually using Excel sheets or paper records.
+The system eliminates the need for manual tracking (Excel/paper) by offering structured and fast operations directly from the console.
 
 🎯 Features
-✓ Society Management
+🏫 Society Management
 
-Add a new society
+Add new societies
 
 View all societies
 
-Edit society details
+Edit society names/details
 
-Delete a society
+Delete societies
 
-Maintain and display total member count
+Display total member count across all societies
 
-✓ Member Management
+👤 Member Management
 
-Add member
+Add a new member
 
-View member list
+View all members of a society
 
-Edit member details
+Edit member information
 
-Delete member
+Delete a member
 
-Search for a specific member
+Search for specific members
 
-✓ Navigation
+🧭 Navigation
 
-Simple menu-based interface
+User-friendly menu-based interface
 
-Easy switching between society and member modules
+Easy switching between modules
 
 🛠 Technical Details
 
 Language: MASM Assembly
 
-Assembler: Visual Studio using MASM + Irvine32 library
+Assembler: Visual Studio (MASM + Irvine32)
 
-Storage Type: In-memory arrays (No file handling)
+Data Storage: In-memory arrays
 
-Interface: Console-based
+UI: Console-based
 
-Limits:
+Capacity Limits:
 
-Maximum 5 societies
+Max 5 societies
 
-Each society can have up to 5 members
-(scalable later)
+Max 5 members per society
 
 🧩 System Design
-Data Structure Approach
+Data Structures
 
-Array-based design for storing societies and members
+Uses arrays to store societies and member records
 
-Index shifting used during deletions to avoid empty gaps
+Implements index shifting during deletions to avoid empty gaps
 
-Simple linear search mechanism for finding members
+Uses linear search for member lookup
 
-Modular Approach
+Project Architecture
 
-Society module
+Main Menu
 
-Member module
+Society Management Module
 
-Main menu for navigation
+Member Management Module
+
+Utility functions for array operations
 
 🚀 Development Methodology
 
-Initial research & problem breakdown
+Requirements analysis & planning
 
-Implementation of society management (Muhammad & Abdullah)
+Society management developed by Muhammad & Abdullah
 
-Implementation of member management (Muhammad & Hasan)
+Member management developed by Muhammad & Hasan
 
-Integration & testing of menu navigation, add/delete/edit/search features
+System integration and testing
 
 📊 Results
 
-Fully functional system meeting all defined objectives
+All core functionalities successfully implemented
 
-Efficient handling of societies and members
+System meets all project objectives
 
-Clean navigation through menu-driven interface
-
-Demonstrates strong command of:
-
-Assembly programming
+Demonstrates strong understanding of:
 
 Array manipulation
 
-User input validation
+Menu navigation
 
-🧪 Challenges Faced
+Assembly programming fundamentals
 
-Shifting array elements during deletions
+🧪 Challenges
 
-Managing fixed-size data structures
+Handling deletions without leaving gaps
 
-Ensuring smooth navigation in pure assembly
+Managing fixed-size arrays
+
+Ensuring smooth user navigation in Assembly
 
 🔮 Future Improvements
 
-Add file I/O for persistent storage
+Add file handling (persistent data storage)
 
-Expand limit for societies & members
+Increase capacity limits
 
-Implement dynamic arrays
+Replace fixed-size arrays with dynamic memory
 
-Add advanced search & sorting features
+Enhance search functionality
 
-Introduce GUI or more advanced console UI
+Add a GUI or improved console UI
 
-📂 How to Run
+📂 How to Run the Project
 
 Install Microsoft Visual Studio
 
-Add MASM and Irvine32 library
+Install & configure Irvine32 library
 
-Open the project folder
+Open the .asm source file(s)
 
-Assemble and run using Visual Studio build options
+Build and run the project
 
-Use menu commands to navigate through the system
+Use the menu to navigate the system
+
+
+🔗 Clone Repository
+
+To clone this project:
+
+git clone https://github.com/ms-rampura/SMS-COAL_PROJECT.git
