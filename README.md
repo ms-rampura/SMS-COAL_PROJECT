@@ -1,4 +1,6 @@
-📌 Society Management System (SMS)
+Society Management System (SMS)
+
+<img width="940" height="788" alt="SMS" src="https://github.com/user-attachments/assets/655581ea-faa8-4a3d-8a94-f3ad5a6bfc42" />
 
 A MASM (Assembly) based Console Application for University Society & Member Management
 
