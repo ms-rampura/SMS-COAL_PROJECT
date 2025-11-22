@@ -974,7 +974,7 @@ showEditList:
     ; compute address of member to edit
     mov edx, ebx
     imul edx, MAX_MEMBERS*MAX_MEMBER_LENGTH
-    mov ecx, edx
+    mov ecx, eax
     imul ecx, MAX_MEMBER_LENGTH
     add edx, ecx
     add edx, OFFSET memberNames
