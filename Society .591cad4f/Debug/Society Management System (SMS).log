@@ -1,0 +1,3 @@
+﻿  Assembling SMS.asm...
+SMS.asm(4): warning A4011: multiple .MODEL directives found : .MODEL ignored
+  Society Management System (SMS).vcxproj -> D:\FAST-NUCES\SEMESTER-3\COAL LAB\COAL PROJECT\Society Management System (SMS)\Debug\Society Management System (SMS).exe
