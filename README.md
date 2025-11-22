@@ -5,7 +5,9 @@ A MASM (Assembly) based Console Application for University Society & Member Mana
 👥 Team Members
 
 Muhammad Shabbir (24K-0502)
+
 Syed Abdullah Kamran (24K-0723)
+
 Hasan Mujtaba (24K-0852)
 
 📝 Overview
