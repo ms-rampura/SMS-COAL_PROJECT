@@ -1,8 +1,4 @@
 INCLUDE Irvine32.inc
-INCLUDELIB Irvine32.lib
-
-.MODEL FLAT, STDCALL
-.STACK 4096
 
 .data
 
@@ -1062,13 +1058,13 @@ foundEqual:
     pop esi
     pop ecx
     pop ebx                 ; restore society index
-    
+    mov ecx,edx
     ; found at position edx (0-based), display as 1-based
     mov eax, lightGreen
     call SetTextColor
     mov edx, OFFSET searchFoundMsg
     call WriteString
-    mov eax, edx
+    mov eax, ecx
     inc eax                 ; convert to 1-based
     call WriteDec
     call Crlf
